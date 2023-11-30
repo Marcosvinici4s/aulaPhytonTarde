@@ -1,0 +1,24 @@
+""""""
+nome = "José"
+numero = 6
+troco = 4.65
+is_login = True # sempre com a primeira letra maiscula True
+print (type(nome))
+print (type(numero))
+print (type(troco))
+print (type(is_login))
+""""""
+nomes = ["Maria","João","Fábio","Ana","Zé" ]
+print(type(nomes)) # Mostrar o tipo de list
+# print(nomes[1]) # Mostra a posição 2
+print(nomes.pop()) # exocui a ultima posição e mostra o nome
+print(nomes) # Mostrar a lista novamente
+nomes.pop() # exclui a ultima posição
+print(nomes)
+nomes.append("Ana") # Adiciona um nome no final da lista
+nomes.append("Lorenzo")
+print(nomes)
+
+for x in nomes:
+    print(x)
+    
